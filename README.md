@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi there :wave:
 
-<!--
-**norajitr/norajitr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Computer Scientist with doctoral, postdoctoral, and group leadership experience in the division of Medical Image Computing (MIC) at the German Cancer Research Center (DKFZ). I specialized at the intersection of **machine learning / deep learning, medical image analysis / computer vision, and research software engineering**. My work spans the following domains:
 
-Here are some ideas to get you started:
+* 🔬 **Population-scale medical image analysis, automated body-composition quantification, cardiometabolic and respiratory health**: As co-applicant and DKFZ coordinator of a [DFG-funded SPP 2177 Radiomics project](https://www.uniklinik-freiburg.de/radiomics/projects.html) ([project announcement](https://www.helmholtz-munich.de/en/newsroom/news-all/artikel/idm-partners-in-the-scientific-priority-program-radiomics-next-generation-of-biomedical-imaging)), I worked on trustworthy large-scale imaging analysis using population-scale data from the German National Cohort (NAKO). I reframed medical image segmentation quality control (QC) around practical utility, introducing evaluation strategies that better capture real-world QC performance, together with tuning mechanisms to optimize QC outcomes at scale. I also developed a Python/DL pipeline for reliably detecting and correcting fat–water swaps in population-scale imaging data.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* 🩺 **Translational medical AI**: As group leader of the Translational Medical AI team at MIC, I contributed to and coordinated collaborative research with medical doctors from the Heidelberg/Mannheim and Freiburg university clinics. Together, we developed a broad range of ML/DL approaches for imaging-based disease research spanning pulmonary, cardiovascular, oncologic, metabolic, and musculoskeletal diseases. Selected work: [COPD assessment](https://doi.org/10.1007/s00330-023-10540-3) · [pedicle-screw planning](https://doi.org/10.1016/j.spinee.2022.05.002) · [aortic-dissection detection](https://doi.org/10.1186/s41747-025-00640-8) · [radiomics workflow standardization](https://doi.org/10.1186/s13244-024-01704-w) · [colorectal-neoplasia prediction](https://doi.org/10.3389/fonc.2026.1842743) · [multi-disease CT biomarker analysis](https://doi.org/10.3390/healthcare10112166)
+
+* 🧩 **Shape-based segmentation using 3D Statistical Shape Models**: Explicit geometric modeling of anatomical shapes encodes important structural information from underlying images. During my PhD, I advanced key components of 3D statistical shape models for image-based model fitting and segmentation. I combined more discriminative landmark appearance modeling over larger image context with robust 3D landmark detection, jointly addressing ambiguities in conventional approaches, streamlining model application, and improving model-fitting and segmentation performance beyond handcrafted solutions. [IEEE TMI paper describing this work](https://doi.org/10.1109/TMI.2016.2600502)
+
+### Software & open-source ⚙️
+
+* I was a core developer and maintainer of the well-known [MITK](https://www.mitk.org/) medical imaging interaction toolkit for 6 years (240+ [code contributions](https://github.com/MITK/MITK/commits?author=norajitr)).
+* [ADetect](https://github.com/MIC-DKFZ/ADetect) — Developed with clinical collaborators at the University Medical Center Mannheim: a robust, extensively validated DL pipeline for high-performance aortic dissection detection in CT, designed for emergency settings.
+* [Shape-model multi-organ segmentation](https://kaapana.readthedocs.io/en/latest/user_guide/extensions.html#automatic-organ-segmentation-shapemodel-organ-seg) — Developed a shape-based organ-labeling approach provided as a containerized standard tool across German university hospitals via the Kaapana/JIP ecosystem.
+
+### Publications
+
+[Google Scholar](https://scholar.google.com/citations?user=BHNxZoYAAAAJ&hl=en)
